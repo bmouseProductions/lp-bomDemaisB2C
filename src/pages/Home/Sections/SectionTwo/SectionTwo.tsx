@@ -6,7 +6,11 @@ export default function SectionTwo() {
         <section className="my-20 container mx-auto px-5 md:px-10 xl:px-16 flex flex-col-reverse lg:flex-row gap-5">
             <div className='w-full flex flex-col items-center gap-10 lg:gap-0 lg:flex-row lg:justify-around'>
                 {/* CARDS */}
-                <div className='border-2  border-[#0062ff] rounded-[20px] max-w-[450px] '>
+                <div 
+                    data-aos="flip-left"
+                    data-aos-duration="3000"
+                    className='border-2  border-[#0062ff] rounded-[20px] max-w-[450px] '
+                >
                     <div className='ml-[-2px] mt-[-40px] max-w-[200px] flex justify-center items-center py-2 px-7 gap-2 rounded-[15px] bg-[#ff4200] '>
                         <img src={simboloLogo} className='w-[30px] h-[30px] ' alt="" />
                         <p className='titleFont text-xl text-white uppercase'>
@@ -36,7 +40,12 @@ export default function SectionTwo() {
                     </div>
                 </div>
 
-                <div className='border-2  bg-[#0062ff] rounded-[20px] max-w-[450px] '>
+                <div 
+                    data-aos="flip-left"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                    className='border-2  bg-[#0062ff] rounded-[20px] max-w-[450px] '
+                >
                     <div className='p-5 md:p-10 py-12 text-white'>
                         <h2 className='titleFont text-3xl md:text-4xl text-center uppercase font-bold text-[3011936] '>
                             plano premium 

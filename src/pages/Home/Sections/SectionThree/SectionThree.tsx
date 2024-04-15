@@ -96,7 +96,11 @@ const parceiros = [
 export default function SectionThree() {
     return (
        <section className="my-20">
-            <div className="container mx-auto px-5 md:px-10 xl:px-16 flex flex-col">
+            <div 
+                data-aos="zoom-in-up"
+                data-aos-duration="3000"
+                className="container mx-auto px-5 md:px-10 xl:px-16 flex flex-col"
+            >
                 <h1 className='my-10 titleFont text-4xl lg:text-5xl text-center lg:text-start lg:!leading-[60px] '>
                     CONFIRA NOSSOS <br className='hidden lg:block' />PRINCIPAIS <span className='px-3 text-white bg-[#0062ff] rounded-xl'>PARCEIROS E DESCONTOS</span> 
                 </h1>
