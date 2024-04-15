@@ -23,7 +23,7 @@ export default function Header(){
                             Medicamentos, Imunização, Educação, Lazer e Bem-estar
                         </p>
 
-                        <div className='mx-auto'>
+                        <div className='mx-auto lg:mx-0'>
                             <Button estilo='amarelo'/>
                         </div>
                     </div>
