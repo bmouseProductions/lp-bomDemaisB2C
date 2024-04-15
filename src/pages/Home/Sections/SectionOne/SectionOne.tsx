@@ -5,8 +5,8 @@ export default function SectionOne(){
     return (
         <section className="py-20">
             <div className="container mx-auto px-5 md:px-10 xl:px-16 flex flex-col-reverse lg:flex-row gap-5">
-                <div className='flex flex-col  lg:justify-center gap-5'>
-                    <h1 className="hidden lg:block titleFont text-4xl text-center md:text-start text-[#0062ff] ">
+                <div className='w-full flex flex-col  lg:justify-center gap-5'>
+                    <h1 className="hidden lg:block titleFont text-6xl text-center md:text-start text-[#0062ff] ">
                         OFERECEMOS
                         DESCONTOS EXCLUSIVOS!
                     </h1>
@@ -38,13 +38,14 @@ export default function SectionOne(){
                     </div>
                     
                 </div>
-                <div className='flex flex-col items-center'>
+
+                <div className='lg:w-1/2 flex flex-col items-center lg:items-end'>
                     <h1 className="lg:hidden mb-10 titleFont text-4xl text-center lg:text-start text-[#0062ff] ">
                         OFERECEMOS
                         DESCONTOS EXCLUSIVOS!
                     </h1>
 
-                    <img src={joelJota} className='w-full' alt="" />
+                    <img src={joelJota} className='' alt="" />
                 </div>
             </div>
         </section>
