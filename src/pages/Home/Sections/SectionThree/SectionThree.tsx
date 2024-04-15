@@ -123,11 +123,11 @@ export default function SectionThree() {
                             centeredSlides: false
                           },
                       }}
-                    className="mySwiper w-full lg:h-[430px] "
+                    className="mySwiper w-full h-[430px] "
                 >
                     {parceiros.map( (parceiro, index) => (
-                        <SwiperSlide key={index}>
-                            <div className='max-w-[300px] flex flex-col items-center border-2 border-[#0062ff] rounded-[20px] py-10 px-5'>
+                        <SwiperSlide key={index} className='!flex justify-center'>
+                            <div className='max-w-[300px] h-fit flex flex-col items-center border-2 border-[#0062ff] rounded-[20px] py-10 px-5'>
                                 <div>
                                     <img src={parceiro.imagem} className='rounded-full max-w-[150px] ' alt="" />
                                 </div>
