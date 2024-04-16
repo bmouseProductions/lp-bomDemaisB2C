@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import sorridents from '../../../../assets/images/logos/sorridents.webp'
 import amoVacinas from '../../../../assets/images/logos/amovacinas.webp'
 import drogaRaia from '../../../../assets/images/logos/drogaRaia.webp'
-import zoologico from '../../../../assets/images/logos/zoologico.webp'
+//import zoologico from '../../../../assets/images/logos/zoologico.webp'
 import gioLaser from '../../../../assets/images/logos/gioLaser.webp'
 import drogasil from '../../../../assets/images/logos/drogasil.webp'
 import unip from '../../../../assets/images/logos/unip.webp'
@@ -26,6 +26,18 @@ const parceiros = [
         desconto: 'Tabela Exclusiva'
     },
     {
+        imagem: gioLaser,
+        nome: `GiOlaser`,
+        categoria: `Saúde e Bem Estar`,
+        desconto: 'Até 70%'
+    },
+    {
+        imagem: olharCerto,
+        nome: `Olhar Certo`,
+        categoria: `Oftalmologia`,
+        desconto: 'Até 30%'
+    },
+    {
         imagem: amoVacinas,
         nome: `Amo Vacinas`,
         categoria: `Imunização`,
@@ -38,23 +50,23 @@ const parceiros = [
         desconto: 'Até 10%'
     },
     {
-        imagem: zoologico,
-        nome: `Zoologico`,
-        categoria: `Lazer`,
-        desconto: 'Até 10%'
-    },
-    {
-        imagem: gioLaser,
-        nome: `GiOlaser`,
-        categoria: `Saúde e Bem Estar`,
-        desconto: 'Até 70%'
-    },
-    {
         imagem: drogasil,
         nome: `Drogasil`,
         categoria: `Medicamentos`,
         desconto: 'Até 70%'
     },
+    {
+        imagem: drogaoSuper,
+        nome: `Drogão Super`,
+        categoria: `Medicamentos`,
+        desconto: 'Até 75%'
+    },
+    // {
+    //     imagem: zoologico,
+    //     nome: `Zoologico`,
+    //     categoria: `Lazer`,
+    //     desconto: 'Até 10%'
+    // },
     {
         imagem: unip,
         nome: `Unip`,
@@ -66,18 +78,6 @@ const parceiros = [
         nome: `Aquário de SP`,
         categoria: `Lazer`,
         desconto: 'Até 10%'
-    },
-    {
-        imagem: olharCerto,
-        nome: `Olhar Certo`,
-        categoria: `Oftalmologia`,
-        desconto: 'Até 30%'
-    },
-    {
-        imagem: drogaoSuper,
-        nome: `Drogão Super`,
-        categoria: `Medicamentos`,
-        desconto: 'Até 75%'
     },
     {
         imagem: jardim,
@@ -108,11 +108,14 @@ export default function SectionThree() {
                 <Swiper
                     spaceBetween={10}
                     centeredSlides={true}
-                    modules={[Pagination]}
+                    modules={[Pagination, Autoplay]}
                     pagination={{
                       clickable: true,
                     }}
                     slidesPerView={1}
+                    autoplay={{
+                        delay: 1000,
+                      }}
                     breakpoints={{
                         768: {
                           slidesPerView: 2,
@@ -131,7 +134,7 @@ export default function SectionThree() {
                 >
                     {parceiros.map( (parceiro, index) => (
                         <SwiperSlide key={index} className='!flex justify-center'>
-                            <div className='max-w-[300px] h-fit flex flex-col items-center border-2 border-[#0062ff] rounded-[20px] py-10 px-5'>
+                            <div className='max-w-[300px] w-full h-fit flex flex-col items-center border-2 border-[#0062ff] rounded-[20px] py-10 px-5'>
                                 <div>
                                     <img src={parceiro.imagem} className='rounded-full max-w-[150px] ' alt="" />
                                 </div>

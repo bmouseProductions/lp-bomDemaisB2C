@@ -14,7 +14,7 @@ export default function Button( {estilo}:ButtonProps ){
                 w-[250px] py-2 px-7 text-xl uppercase text-center titleFont rounded-[35px]`
             }
         >
-            Entre em contato
+            CONTRATE AGORA
         </a>
     )
 }
