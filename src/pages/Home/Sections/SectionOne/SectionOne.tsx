@@ -4,11 +4,11 @@ import Button from '../../../../components/Button/Button'
 export default function SectionOne(){
     return (
         <section className="py-20">
-            <div className="container mx-auto px-5  flex flex-col-reverse lg:flex-row gap-5">
+            <div className="container mx-auto px-5 md:px-10 xl:px-16  flex flex-col-reverse lg:flex-row gap-5">
                 <div 
                     data-aos="fade-right" 
                     data-aos-duration="3000"
-                    className='px-5 py-10 xl:px-10 xl:py-0 w-full flex flex-col lg:justify-center gap-5 lg:text-lg bg-gray-300 rounded-[30px] '
+                    className='px-5 py-10 xl:px-10 xl:py-0 w-full flex flex-col lg:justify-center gap-5 lg:text-lg border-2 border-[#0062ff] rounded-[30px] '
                 >
                     <h1 className="hidden lg:block titleFont text-4xl xl:text-[55px] xl:leading-[50px] text-center md:text-start text-[#0062ff] ">
                         OFERECEMOS

@@ -48,7 +48,7 @@ export default function SectionTwo() {
                 >
                     <div className='p-5 md:p-10 py-12 '>
                         <h2 className='titleFont text-3xl md:text-4xl text-center uppercase font-bold text-[3011936] '>
-                            plano premium 
+                            plano premium saúde
                         </h2>
                         <h2 className='titleFont text-[#0062ff] text-6xl md:text-7xl text-center'>
                             R$ 35,90

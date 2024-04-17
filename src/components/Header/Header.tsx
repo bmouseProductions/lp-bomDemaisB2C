@@ -1,5 +1,5 @@
 import logoCentral from '../../assets/images/logo-central.webp'
-import logoEsquerda from '../../assets/images/logo-esquerda.webp'
+import logoFrente from '../../assets/images/logoFrente.webp'
 import banner from '../../assets/images/Header/banner-desk.webp'
 import Button from '../Button/Button'
 
@@ -15,7 +15,7 @@ export default function Header(){
                     >
                         <div>
                             <img src={logoCentral} className='lg:hidden mx-auto lg:mx-0 w-[200px] ' alt="" />
-                            <img src={logoEsquerda} className='hidden lg:block mx-auto lg:mx-0 lg:w-[150px] ' alt="" />
+                            <img src={logoFrente} className='hidden lg:block mx-auto lg:mx-0 lg:w-[300px] ' alt="" />
                         </div>
                         <h1 className='titleFont text-3xl md:text-6xl lg:text-[38px] md:leading-[45px] text-center md:text-start text-[#fff800]  '>
                             JÁ IMAGINOU
