@@ -26,7 +26,7 @@ export default function Header(){
                         </h1>
                         <p className='text-white text-center lg:text-lg lg:text-start'>
                             Garanta até 75% off em Exames, Oftalmologia, Odontologia,
-                            Medicamentos, Imunização, Educação, Lazer e Bem-estar.
+                            Medicamentos, Imunização, Educação e Bem-estar.
                         </p>
 
                         <div className='mx-auto lg:mt-5 lg:mx-0'>

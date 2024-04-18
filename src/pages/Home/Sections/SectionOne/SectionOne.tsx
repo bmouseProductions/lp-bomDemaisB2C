@@ -57,7 +57,7 @@ export default function SectionOne(){
                         
                         src={joelJota} 
                         className='' 
-                        alt="" 
+                        alt="imagem do influenciador Joel Jota" 
                     />
                     <div className='absolute bottom-0 rounded-b-[25px] p-5  backdrop-blur-sm bg-[#000000ac] '>
                         <p className='text-white font-semibold'>
