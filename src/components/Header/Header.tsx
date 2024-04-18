@@ -5,7 +5,7 @@ import Button from '../Button/Button'
 
 export default function Header(){
     return (
-        <header className="mx-auto pt-10 lg:py-10 lg:my-20 w-full lg:w-[90%] lg:max-h-[580px] lg:max-w-[1400px] lg:rounded-[30px] bg-[#0062ff] bg-banner">
+        <header className="mx-auto pt-10 lg:py-10 lg:my-20 w-full lg:w-[90%] lg:h-[500px] lg:max-w-[1400px] lg:rounded-[30px] bg-[#0062ff] bg-banner">
             <div className=" container mx-auto px-5 md:px-10 xl:px-16 2xl:px-20 ">
                 <div className=' flex flex-col items-center lg:flex-row '>
                     <div 
@@ -17,7 +17,7 @@ export default function Header(){
                             <img src={logoCentral} className='lg:hidden mx-auto lg:mx-0 w-[200px] ' alt="" />
                             <img src={logoFrente} className='hidden lg:block mx-auto lg:mx-0 lg:w-[300px] ' alt="" />
                         </div>
-                        <h1 className='titleFont text-3xl md:text-6xl lg:text-[38px] md:leading-[45px] text-center md:text-start text-[#fff800]  '>
+                        <h1 className='titleFont text-3xl md:text-6xl lg:text-[38px] md:leading-[50px] lg:leading-[45px] text-center md:text-start text-[#fff800]  '>
                             JÁ IMAGINOU
                             ECONOMIZAR
                             DINHEIRO EM
