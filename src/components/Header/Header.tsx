@@ -17,16 +17,12 @@ export default function Header(){
                             <img src={logoCentral} className='lg:hidden mx-auto lg:mx-0 w-[200px] ' alt="" />
                             <img src={logoFrente} className='hidden lg:block mx-auto lg:mx-0 lg:w-[300px] ' alt="" />
                         </div>
-                        <h1 className='titleFont text-3xl md:text-6xl lg:text-[38px] md:leading-[50px] lg:leading-[45px] text-center md:text-start text-[#fff800]  '>
-                            JÁ IMAGINOU
-                            ECONOMIZAR
-                            DINHEIRO EM
-                            TODAS AS ÁREAS 
-                            DO SEU DIA A DIA?
+                        <h1 className='titleFont text-3xl md:text-6xl lg:text-[38px] md:leading-[50px] lg:leading-[45px] text-center uppercase md:text-start text-[#fff800]  '>
+                            Já imaginou economizar dinheiro em vários momentos do seu dia a dia?
                         </h1>
                         <p className='text-white text-center lg:text-lg lg:text-start'>
                             Garanta até 75% off em Exames, Oftalmologia, Odontologia,
-                            Medicamentos, Imunização, Educação e Bem-estar.
+                            Medicamentos, Imunização, Educação, Beleza e Bem-estar.
                         </p>
 
                         <div className='mx-auto lg:mt-5 lg:mx-0'>
