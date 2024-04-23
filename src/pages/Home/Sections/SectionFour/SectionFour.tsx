@@ -12,7 +12,7 @@ export default function SectionFour(){
 
                 <div className='max-w-[600px] md:text-lg'>
                     <p className='text-center mb-5'>
-                        Tenha acesso a descontos exclusivos em saúde, educação e
+                        Tenha acesso a descontos exclusivos em saúde, educação, beleza e
                         bem-estar! Preencha o formulário abaixo para contratar o seu cartão
                         bomd+
                     </p>
