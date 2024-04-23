@@ -14,7 +14,7 @@ export default function SectionFour(){
                     <p className='text-center mb-5'>
                         Tenha acesso a descontos exclusivos em saúde, educação, beleza e
                         bem-estar! <br /> Preencha o formulário abaixo para contratar o seu cartão
-                        bomd+
+                        bomd+.
                     </p>
                     <p className='text-center'>
                         Aproveite os descontos especiais <strong>para você e sua família.</strong>
