@@ -5,8 +5,12 @@ import { Pagination } from 'swiper/modules'
 
 export default function SectionTwo() {
     return (
-        <section className="my-20 container mx-auto px-5  xl:px-16 flex flex-col-reverse lg:flex-row gap-5">
+        <section className="my-20 container mx-auto px-5 flex flex-col gap-5">
             {/* CARDS */}
+            
+            <h2 className='titleFont text-4xl lg:text-5xl uppercase text-center text-[#0062ff] xl:hidden'>
+                arraste para o lado e conheça nossos planos:
+            </h2>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
@@ -27,7 +31,6 @@ export default function SectionTwo() {
                 modules={[Pagination]}
                 className="mySwiper !w-full !py-10"
             >
-                <h2></h2>
                 <SwiperSlide className='!flex !justify-center'>
                     <div 
                         className='h-full w-full border-2 border-[#0062ff] rounded-[20px] max-w-[450px] '
@@ -42,7 +45,7 @@ export default function SectionTwo() {
                             <h2 className='titleFont text-3xl md:text-4xl text-center uppercase font-bold text-[3011936] '>
                                 plano individual 
                             </h2>
-                            <h2 className='titleFont text-[#0062ff] text-6xl md:text-7xl text-center'>
+                            <h2 className='titleFont text-[#0062ff] text-6xl 2xl:text-7xl text-center'>
                                 R$ 25,90
                             </h2>
                             <ul className='mt-4 pl-5 flex flex-col gap-1 list-disc text-lg font-semibold'>
@@ -70,7 +73,7 @@ export default function SectionTwo() {
                             <h2 className='titleFont text-3xl md:text-4xl text-center uppercase font-bold text-[3011936] '>
                                 plano Familiar
                             </h2>
-                            <h2 className='titleFont text-[#0062ff] text-6xl md:text-7xl text-center'>
+                            <h2 className='titleFont text-[#0062ff] text-6xl 2xl:text-7xl text-center'>
                                 R$ 29,90
                             </h2>
                             <ul className='mt-4 pl-5 flex flex-col gap-1 list-disc text-lg font-semibold'>
@@ -98,7 +101,7 @@ export default function SectionTwo() {
                             <h2 className='titleFont text-3xl md:text-4xl text-center uppercase font-bold text-[3011936] '>
                                 plano Saúde Individual
                             </h2>
-                            <h2 className='titleFont text-[#0062ff] text-6xl md:text-7xl text-center'>
+                            <h2 className='titleFont text-[#0062ff] text-6xl 2xl:text-7xl text-center'>
                                 R$ 35,90
                             </h2>
                             <ul className='mt-4 pl-5 flex flex-col gap-1 list-disc text-lg font-semibold'>
@@ -125,7 +128,7 @@ export default function SectionTwo() {
                             <h2 className='titleFont text-3xl md:text-4xl text-center uppercase font-bold text-[3011936] '>
                                 plano Saúde Familiar
                             </h2>
-                            <h2 className='titleFont text-[#0062ff] text-6xl md:text-7xl text-center'>
+                            <h2 className='titleFont text-[#0062ff] text-6xl 2xl:text-7xl text-center'>
                                 R$ 39,90
                             </h2>
                             <ul className='mt-4 pl-5 flex flex-col gap-1 list-disc text-lg font-semibold'>
