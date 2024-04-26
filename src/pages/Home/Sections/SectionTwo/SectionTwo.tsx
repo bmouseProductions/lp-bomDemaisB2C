@@ -20,8 +20,7 @@ export default function SectionTwo() {
                     spaceBetween: 10,
                     },
                     1200: {
-                    slidesPerView: 2,
-                    slidesPerGroup: 2,
+                    slidesPerView: 4,
                     spaceBetween: 20,
                     },
                 }}
