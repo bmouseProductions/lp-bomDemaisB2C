@@ -27,6 +27,7 @@ export default function SectionTwo() {
                 modules={[Pagination]}
                 className="mySwiper !w-full !py-10"
             >
+                <h2></h2>
                 <SwiperSlide className='!flex !justify-center'>
                     <div 
                         className='h-full w-full border-2 border-[#0062ff] rounded-[20px] max-w-[450px] '
@@ -79,8 +80,8 @@ export default function SectionTwo() {
                                 <li>Até 70% de desconto em empresas de Saúde e Bem-estar;</li>
                                 <li>Até 50% de desconto em empresas de Educação;</li>
                                 <li>Apenas R$ 6,90 por mês por dependente;</li>
-                                <li>6 consultas gratuitas de Telemedicina por beneficiário por ano com clínico geral.</li>
-                                <li>Até 4 dependentes sem necessidade de grau de parentesco e/ou relação de dependência econômica</li>
+                                <li>6 consultas gratuitas de Telemedicina por beneficiário por ano com clínico geral;</li>
+                                <li>Até 4 dependentes sem necessidade de grau de parentesco e/ou relação de dependência econômica.</li>
                             </ul>
                             <div className='mx-auto w-fit my-5'>
                                 <Button estilo='azul'/>
@@ -134,8 +135,8 @@ export default function SectionTwo() {
                                 <li>Até 70% de desconto em empresas de Saúde e Bem-estar;</li>
                                 <li>Até 50% de desconto em empresas de Educação;</li>
                                 <li>Apenas R$ 6,90 por mês por dependente;</li>
-                                <li>6 consultas gratuitas de Telemedicina por beneficiário por ano com clínico geral e mais 22 especialidades.</li>
-                                <li>Até 4 dependentes sem necessidade de grau de parentesco e/ou relação de dependência econômica</li>
+                                <li>6 consultas gratuitas de Telemedicina por beneficiário por ano com clínico geral e mais 22 especialidades;</li>
+                                <li>Até 4 dependentes sem necessidade de grau de parentesco e/ou relação de dependência econômica.</li>
                             </ul>
                             <div className='mx-auto w-fit my-5'>
                                 <Button estilo='azul'/>
