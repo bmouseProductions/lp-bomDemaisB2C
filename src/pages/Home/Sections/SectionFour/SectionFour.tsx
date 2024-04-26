@@ -10,11 +10,11 @@ export default function SectionFour(){
                     <span className='text-[#ffee00] lg:text-6xl text-center'>cartão bomd+</span>
                 </h2>
 
-                <div className='max-w-[600px] md:text-lg'>
+                <div className='max-w-[650px] md:text-lg'>
                     <p className='text-center mb-5'>
-                        Tenha acesso a descontos exclusivos em saúde, educação e
-                        bem-estar! Preencha o formulário abaixo para contratar o seu cartão
-                        bomd+
+                        Tenha acesso a descontos exclusivos em saúde, educação, beleza e
+                        bem-estar! <br /> Preencha o formulário abaixo para contratar o seu cartão
+                        bomd+.
                     </p>
                     <p className='text-center'>
                         Aproveite os descontos especiais <strong>para você e sua família.</strong>
