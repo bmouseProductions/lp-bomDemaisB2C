@@ -54,7 +54,7 @@ export default function SectionTwo() {
                                 <li>Até 30% de desconto em Exames, Imagens e Análises Clínicas;</li>
                                 <li>Até 70% de desconto em empresas de Saúde e Bem-estar;</li>
                                 <li>Até 50% de desconto em empresas de Educação;</li>
-                                <li>Apenas R$ 6,90 por mês por dependente;</li>
+                                
                                 <li>6 consultas gratuitas de Telemedicina com clínico geral por beneficiário por ano.</li>
                             </ul>
                             <div className='mx-auto w-fit mt-10'>
@@ -82,7 +82,7 @@ export default function SectionTwo() {
                                 <li>Até 30% de desconto em Exames, Imagens e Análises Clínicas;</li>
                                 <li>Até 70% de desconto em empresas de Saúde e Bem-estar;</li>
                                 <li>Até 50% de desconto em empresas de Educação;</li>
-                                <li>Apenas R$ 6,90 por mês por dependente;</li>
+                                
                                 <li>6 consultas gratuitas de Telemedicina por beneficiário por ano com clínico geral;</li>
                                 <li>Até 4 dependentes sem necessidade de grau de parentesco e/ou relação de dependência econômica.</li>
                             </ul>
@@ -110,7 +110,7 @@ export default function SectionTwo() {
                                 <li>Até 30% de desconto em Exames, Imagens e Análises Clínicas;</li>
                                 <li>Até 70% de desconto em empresas de Saúde e Bem-estar;</li>
                                 <li>Até 50% de desconto em empresas de Educação;</li>
-                                <li>Apenas R$ 6,90 por mês por dependente;</li>
+                                
                                 <li>6 consultas gratuitas de Telemedicina por beneficiário por ano com clínico geral, mais 22 especialidades e descontos em clínicas físicas/presenciais.</li>
                             </ul>
                             <div className='mx-auto w-fit my-5'>
@@ -137,7 +137,7 @@ export default function SectionTwo() {
                                 <li>Até 30% de desconto em Exames, Imagens e Análises Clínicas;</li>
                                 <li>Até 70% de desconto em empresas de Saúde e Bem-estar;</li>
                                 <li>Até 50% de desconto em empresas de Educação;</li>
-                                <li>Apenas R$ 6,90 por mês por dependente;</li>
+                                
                                 <li>6 consultas gratuitas de Telemedicina por beneficiário por ano com clínico geral e mais 22 especialidades;</li>
                                 <li>Até 4 dependentes sem necessidade de grau de parentesco e/ou relação de dependência econômica.</li>
                             </ul>
