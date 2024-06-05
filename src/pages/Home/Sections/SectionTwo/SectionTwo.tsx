@@ -108,7 +108,8 @@ export default function SectionTwo() {
                                 <li>Até 30% de desconto em Exames, Imagens e Análises Clínicas;</li>
                                 <li>Até 70% de desconto em empresas de Saúde e Bem-estar;</li>
                                 <li>Até 50% de desconto em empresas de Educação;</li>
-                                <li>Acesso ilimitado a consultas gratuitas de telemedicina com clínico geral, mais 22 especialidades e descontos em clínicas físicas/presenciais.</li>
+                                <li>Acesso ilimitado a consultas gratuitas de telemedicina com clínico geral;</li>
+                                <li>Incluindo também 6 consultas anuais gratuitas de telemedicina com 22 especialidades médicas.</li>
                             </ul>
                             <div className='mx-auto w-fit my-5'>
                                 <Button estilo='azul'/>
@@ -134,7 +135,8 @@ export default function SectionTwo() {
                                 <li>Até 30% de desconto em Exames, Imagens e Análises Clínicas;</li>
                                 <li>Até 70% de desconto em empresas de Saúde e Bem-estar;</li>
                                 <li>Até 50% de desconto em empresas de Educação;</li>
-                                <li>Acesso ilimitado a consultas gratuitas de telemedicina com clínico geral e mais 22 especialidades;</li>
+                                <li>Acesso ilimitado a consultas gratuitas de telemedicina com clínico geral;</li>
+                                <li>Incluindo também 6 consultas anuais gratuitas de telemedicina com 22 especialidades médicas;</li>
                                 <li>Até 4 dependentes sem necessidade de grau de parentesco e/ou relação de dependência econômica.</li>
                             </ul>
                             <div className='mx-auto w-fit my-5'>
